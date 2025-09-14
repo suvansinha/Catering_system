@@ -1,0 +1,19 @@
+:root{
+  --bg:#fafafa; --card:#fff; --accent:#ff6f00; --muted:#666;
+}
+*{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;}
+body{margin:0;background:var(--bg);color:#111}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.brand{font-weight:700;font-size:20px}
+.brand .dot{color:var(--accent)}
+.container{max-width:1000px;margin:24px auto;padding:0 16px}
+.hero{background:linear-gradient(90deg,#fff 0%, #fff);padding:24px;border-radius:12px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);border-radius:12px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+.card img{width:100%;height:140px;object-fit:cover;background:#eee}
+.card-body{padding:12px}
+.row{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
+.price{font-weight:700}
+.btn{background:var(--accent);border:none;color:#fff;padding:8px 12px;border-radius:8px;cursor:pointer}
+input,textarea{width:100%;padding:8px;margin:6px 0;border-radius:6px;border:1px solid #ddd}
+small{color:var(--muted)}
